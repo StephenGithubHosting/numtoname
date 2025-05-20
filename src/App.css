@@ -1,0 +1,75 @@
+.letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-information{
+    display: flex;
+    justify-content: center;
+}
+.information{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.information .letter{
+    margin: 5px;
+}
+.addedInfo span{
+    color: red;
+}
+.title-information{
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+
+}
+.converters{
+    display: flex;
+    justify-content: center;
+}
+.converters .number, .converters .alphabet{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.credits{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 1000px;
+    transition: ease 0.3s;
+}
+.credits a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-text-stroke: .3px white;
+    
+}
+.credits:hover{
+    color: white;
+    -webkit-text-stroke: .3px black;
+    transform: scale(1.1);
+}
+.addedInfo .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.webversion{
+    position: fixed;
+    top: 0;
+    font-family: 'Monospace', monospace;    
+}
