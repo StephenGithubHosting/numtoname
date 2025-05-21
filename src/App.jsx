@@ -115,17 +115,18 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div className="challange">
-        <h1>Up for a challange?</h1>
-        <h2>Try to convert this SECRET number into a name</h2>
-        <button>Play</button>
+      <div className="wrapper-challange">
+        <div className="challange">
+          <h1>Up for a challange?</h1>
+          <h2>Try to convert this SECRET number into a name</h2>
+          <button>Play</button>
+        </div>
       </div>
       <div className="credits">
         <a href="https://stepwebdev.netlify.app">Created by stepwebdev, 2020 - 2025.</a>
       </div>
       <div className="webversion">
-        <p>ver : 0.134aef7bv</p>
+        <p>ver : 0.174vgf97v</p>
       </div>
     </>
   )
