@@ -1,0 +1,158 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(100, 161, 214);
+    color: rgb(241, 235, 225);
+}
+.letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-information{
+    display: flex;
+    justify-content: center;
+}
+.information{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.information .letter{
+    margin: 5px;
+}
+.addedInfo span{
+    color: red;
+}
+.title-information{
+    display: flex;
+    justify-content: center;
+}
+.introduction{
+    display: flex;
+    justify-content: center;
+
+}
+.converters{
+    display: flex;
+    justify-content: center;
+}
+.converters .number, .converters .alphabet{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.credits{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 1000px;
+    transition: ease 0.3s;
+}
+.credits a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-text-stroke: .27px white;
+    
+}
+.credits:hover{
+    color: white;
+    -webkit-text-stroke: .3px black;
+    transform: scale(1.1);
+}
+.addedInfo .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.webversion{
+    position: fixed;
+    top: 0;
+    font-family: 'Monospace', monospace;    
+}
+.wrapper-challange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.challange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(10, 45, 93);
+    padding: 10px;
+}
+.formula{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 80%;
+}
+.wrapper-formula{
+    display: flex;
+    justify-content: center;
+}
+.formula .formula-text{
+    font-family: monospace;
+    
+}
+
+.formula-text *{
+    position: relative;
+    margin: 20px;
+}
+
+.formula h1:nth-child(1){
+    display: flex;
+    justify-content: center;
+}
+/* .formula *{
+    margin: 0px;
+} */
+.formula h1:nth-child(2){
+   margin: 0px 0px 10px 0px;
+}
+.formula .alphadecode , .formula .numdecode{
+    margin: 15px;
+    background-color: rosybrown;
+    
+}
+
+
+
+.formula .legend_info{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    background-color: rgb(33, 103, 103);
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+.formula .legend_info h2{
+    margin: 10px;
+}
+.formula .legend_info .commands *{
+    margin: 7px;
+    font-size: 16px;
+    font-family: monospace;
+    background-color: rgb(7, 65, 65);
+    padding: 10px;
+   border-radius: 15px;
+   width: 100%;
+}
