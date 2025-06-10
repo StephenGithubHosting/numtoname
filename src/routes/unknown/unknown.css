@@ -1,3 +1,11 @@
-/* body{
-    background-color: black;
-} */
+.unknown_body{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+.unknown_text {
+    z-index: 1;
+}

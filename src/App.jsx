@@ -5,6 +5,7 @@ import './App.css'
 import { Route, Routes } from 'react-router'
 import Home from './routes/home/Home'
 import Unknown from './routes/unknown/Unknown'
+import Challange from './routes/challange/Challange'
 
 
 
@@ -17,7 +18,8 @@ function App() {
       
       <Routes>
         <Route index element={<Home />} />
-        {/* <Route path="*" element={<Unknown />} /> */}
+        <Route path="*" element={<Unknown />} />
+        <Route path="/challange" element={<Challange/>}/>
       </Routes>
       {/* <Home></Home> */}
      
