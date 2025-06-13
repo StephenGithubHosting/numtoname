@@ -25,6 +25,12 @@ body{
 .information .letter{
     margin: 5px;
 }
+.addedInfo{
+    margin-top: 20px;
+    background-color: rgb(223, 190, 3);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
 .addedInfo span{
     color: red;
 }
@@ -50,6 +56,7 @@ body{
     outline: 5px solid black;
     border-radius: 10px;
     flex-direction: column;
+    
 }
 .main{
     display: flex;
@@ -140,9 +147,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     background-color: rgb(10, 45, 93);
     padding: 10px;
+    margin-bottom: 30px;
 }
 .formula{
     display: flex;
@@ -209,14 +217,11 @@ body{
    /* width: 100%; */
 }
 
-.inform{
-
-}
 .main-formula{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 2.25vw;
     background-color: black;
     width: 60%;
     font-family: monospace;
@@ -258,3 +263,47 @@ body{
     margin-top: 10px;
     padding: 10px;
 }
+
+@media screen and (max-width: 605px){
+    .converters{
+        width: 90%;
+    }
+    .main .number *, .main .alphabet *{
+        margin: 6px;
+        padding: 0px;
+
+    }
+    .main .number , .main .alphabet{
+        width: 100%;
+    }
+    .main .number input, .main .alphabet input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .main .number input, .main .alphabet input{
+        width: 70%;
+    }
+    .converters{
+        width: 90%;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main .number,.main  .alphabet{
+        margin: 0px;
+        padding: 0px;
+    }
+    /* .main h2:nth-child(2){
+        
+    } */
+
+}
+
+@media screen and (max-width: 730px){
+    .developers_section{
+        /* width: 100%; */
+    }
+}
+

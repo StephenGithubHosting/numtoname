@@ -198,7 +198,7 @@ const Home = () => {
               <a href="https://stepwebdev.netlify.app">Created by stepwebdev, 2020 - 2025.</a>
           </div>
           <div className="webversion">
-              <p>ver : 0.259hyI38v</p>
+              <p>ver : 0.379gFG91v</p>
           </div>
       </>
   )
